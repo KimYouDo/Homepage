@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link type="text/css" rel="stylesheet" href="outcss.css">
+
+</head>
+<body id="r">
+<br><br><br><br><br>
+        <form method="post">
+            <fieldset>
+                <legend>회원정보입력</legend>
+                <label for="name">아이디</label>
+                <input type="text" name="name" id="text1" required 
+			pattern="[a-z][a-z\d]{3,11}" 
+			title="영어와 숫자로 이루어진 3~11사이">
+                <button>중복확인</button><br />
+                <label for="password1">패스워드</label>
+                <input type="password" name="password1" required 
+			pattern="[a-z][a-z\d]{3,11}" 
+			title="영어와 숫자로 이루어진 3~11사이"><br />
+                <label for="password2">패스워드 확인</label>
+                <input type="password" name="password2" /><br />
+                <label for="name">이름</label>
+                <input type="text" name="name"required 
+			pattern="[가-힝]{2,}" 
+			title="2글자 이상의 한글"><br />
+                <label for="tel">휴대폰 번호</label>
+                <input type="tel" name="tel"required 
+			pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" 
+			title="###-####-####">
+                <br />
+                <label for="email">이메일</label>
+                <input type="email" name="email" required 
+			pattern="^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$" 
+			title="아이디@메일주소">
+                <br />
+       <label for="dob">생일</label>
+                <input type="date" name="dob" />
+                <br />
+                <input type="radio" name="gender" value="Male">
+                남성<br>
+                <input type="radio" name="gender" value="Female">
+                여성<br>
+            </fieldset>
+<input type="reset" name="" value="초기화" />
+            <button type="butten" onclick="alert('가입되었습니다.')">가입</button>
+            
+        </form>
+    
+</body>
+</html>

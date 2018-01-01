@@ -1,0 +1,115 @@
+body { background-color: #F3F1E9; margin:0px; padding:0px; }
+#m li { display:inline; background:#8EC7D0; border:5px dotted #6EE3F7; margin:10px; padding:30px; border-radius:40px; color:white; font-size:25px;}
+#b{background-image:url("¹è°æ.gif"); margin:0px; padding:0px;}
+a{text-decoration:none; color:white;}
+#ifr{display:inline; width: 500px; height: 650px;}
+#gamelist li { display:inline; background:#AA3AFF; border:5px dotted #6EF3A7; margin:10px; padding:30px;font-size:25px; border-radius:20px;}
+
+#mainTa{ position:absolute; top:170px; font-size:30px; color:black;}
+#imabezixe{height: 650px;}
+#ifr2{display:inline; width: 600px; height: 650px; border:5px solid #6AEF31;}
+#m li a:hover {      color: blue;    } 
+#simage{ width: 150px;}
+#null{display:inline;}
+#imabezixe{height: 650px;}
+video { position:relative; bottom:180px; display:inline;}
+#gamelist li { display:inline; background:#AA3AFF; border:5px dotted #6EF3A7; margin:10px; padding:30px;font-size:25px; border-radius:20px;}
+        #r {
+            height: 100%;
+            background-color: #F3F1E9;
+        }
+        label {
+            display: inline-block;
+            width: 120px;
+        }
+        input {
+            display: inline-block;
+            width: 160px;
+        }
+#m01 {
+	    border-radius:80px;
+            width: 50px;
+            height:50px;
+	    border:3px solid #6AEF31;
+            background: red;
+            position:absolute;
+            animation: 5s myanim01;
+            animation-iteration-count: 10;
+        }
+      @keyframes myanim01
+        {
+            0%   {left:30px; top:10px;}
+            10%  {left:300px; top:300px;background:#8EA7D0;}
+            20%  {left:480px; top:450px; }
+            30%  {left:380px; top:150px;background:black;}
+            40% {left:150px; top:480px;}
+	60% {left:350px; top:500px; }
+	60% {left:450px; top:170px;background:#FFC8B0;}
+	70% {left:250px; top:280px;background:#FFFFFF;}
+	80% {left:550px; top:450px;}
+	90% {left:20px; top:500px;background:yellow;}
+	100% {left:350px; top:260px;}
+        }
+#m02 {
+	    border-radius:80px;
+            width: 50px;
+            height:50px;
+            background: red;
+	    border:3px solid #6AEF31;
+            position:absolute;
+            animation: 4s myanim02;
+            animation-iteration-count: 10;
+        }
+      @keyframes myanim02
+        {
+            0%   {left:20px; top:50px;}
+            10%  {left:200px; top:310px;background:#FFC8B0;}
+            20%  {left:480px; top:550px;  transform: scale(1,3);}
+            30%  {left:380px; top:150px;background:black; transform: scale(1,2);}
+            40% {left:250px; top:380px; transform: scale(2,2);}
+	60% {left:80px; top:500px; transform: scale(3, 1);}
+	60% {left:450px; top:170px;background:#8EA7D0; transform: scale(1, 3);}
+	70% {left:150px; top:480px;background:#FFFFFF; transform: scale(2,2);}
+	80% {left:400px; top:420px; transform: scale(3,2);}
+	90% {left:20px; top:500px;background:yellow; transform: scale(2,1);}
+	100% {left:350px; top:260px; transform: scale(1,1);}
+        }
+#m03 {
+	    border-radius:80px;
+            width: 50px;
+            height:50px;
+            background: red;
+	    border:3px solid #6AEF31;
+            position:absolute;
+            animation: 3s myanim03;
+            animation-iteration-count: 10;
+        }
+      @keyframes myanim03
+        {
+            0%   {left:20px; top:50px;}
+            10%  {left:300px; top:310px;background:#FFC8B0; transform: scale(1,3);}
+            20%  {left:480px; top:50px;  transform: rotate(30deg);}
+            30%  {left:80px; top:450px;background:black; transform: scale(1,2);}
+            40% {left:250px; top:380px; transform: scale(3,2);}
+	60% {left:80px; top:500px;  background:#F3FFFA;transform: rotate(120deg);}
+	60% {left:450px; top:70px;background:#8EA7D0; transform: scale(1, 3); }
+	70% {left:10px; top:480px;background:#AAFFFF; transform: rotate(140deg);}
+	80% {left:400px; top:420px; transform: scale(2,1);}
+	90% {left:20px; top:500px;background:yellow; transform: rotate(40deg); }
+	100% {left:350px; top:60px; transform: scale(1,1);}
+        }
+
+        #m1 {
+            
+            position:relative;
+            animation: 2s myanim;
+            animation-iteration-count: infinite;
+        }
+        @keyframes myanim
+        {
+            0%   {left:0px; top:0px;}
+            25%  {left:30px; top:0px;}
+            50%  {left:80px; top:0px;}
+            75%  {left:30px; top:0px;}
+            100% {left:0px; top:0px;}
+        }
